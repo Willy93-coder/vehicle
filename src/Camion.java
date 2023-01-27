@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class Camion {
+public class Camion{
+    // Atributos
+    Remolque remolque;
+
+    // Constructor
+
+
+    // Método ponerRemolque
+    public void ponerRemolque() {
+
+    }
 }
