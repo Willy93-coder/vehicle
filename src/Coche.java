@@ -1,3 +1,9 @@
+/**
+ * Clase Coche
+ * Contiene toda la información referente a los coches
+ * @author Willy
+ * @version 1.0.0
+ * */
 public class Coche extends Vehiculo{
     // Atributos
     private int puertas;

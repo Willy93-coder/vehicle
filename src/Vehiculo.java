@@ -1,3 +1,9 @@
+/**
+ * Clase Vehiculo
+ * Contiene toda la información referente a los vehículos
+ * @author Willy
+ * @version 1.0.0
+ * */
 public abstract class Vehiculo{
     // Atributos
     private String matricula;
@@ -10,7 +16,7 @@ public abstract class Vehiculo{
     }
 
     // Métodos
-    public double acelerar (double velocidad) {
+    public double accelerar (double velocidad) throws DemasiadoRapidoException {
         return this.velocidad = velocidad;
     }
 
@@ -25,6 +31,6 @@ public abstract class Vehiculo{
     // To string
     @Override
     public String toString() {
-        return "Tú vehiculo tiene la matricula " + matricula + " y velocidad " + velocidad;
+        return "Tú vehiculo tiene la matricula " + matricula + " y velocidad " + velocidad + " km/h";
     }
 }
