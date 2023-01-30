@@ -21,7 +21,7 @@ public class Main {
                 try {
                     arrayVehiculos[i].accelerar(velocitat);
                 } catch (DemasiadoRapidoException e){
-                    System.out.println(e.getMessage());
+                    System.err.println(e.getMessage());
                 }
             }
             if (arrayVehiculos[i] instanceof Coche) {
