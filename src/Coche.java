@@ -6,15 +6,29 @@
  * */
 public class Coche extends Vehiculo{
     // Atributos
+
+    /**
+     * Numero de puertas
+     */
     private int puertas;
 
     // Constructor
+
+    /**
+     * Constructor con 2 parametros que hereda de vehiculo
+     * @param matricula
+     * @param puertas
+     */
     public Coche(String matricula, int puertas) {
         super(matricula);
         this.puertas = puertas;
     }
 
-    // Método getPuertas
+    // Métodos
+
+    /**
+     * Devuelve el numero de puertas
+     */
     public int getPuertas() {
         return puertas;
     }

@@ -6,24 +6,44 @@
  * */
 public abstract class Vehiculo{
     // Atributos
+    /**
+     * Matricula del vehiculo
+     */
     private String matricula;
+    /**
+     * Velocidad del vehiculo
+     */
     private double velocidad;
 
     // Constructor
+    /**
+     * Constructor con 1 parametro y que inicializa velocidad a 0
+     * @param matricula*/
     public Vehiculo(String matricula) {
         this.matricula = matricula;
         this.velocidad = 0;
     }
 
     // Métodos
+    /**
+     * Metodo que acelera el vehiculo, recibe 1 parametro lanza y una excepcion de DemasiadoRapidoExceptio
+     * @param velocidad
+     */
     public double accelerar (double velocidad) throws DemasiadoRapidoException {
-        return this.velocidad = velocidad;
+        this.velocidad += velocidad;
+        return this.velocidad;
     }
 
+    /**
+     * Devuelve la matricula del coche
+     */
     public String getMatricula() {
         return matricula;
     }
 
+    /**
+     * Devuelve la velocidad del coche
+     */
     public double getVelocidad() {
         return velocidad;
     }

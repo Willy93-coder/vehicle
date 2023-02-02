@@ -6,9 +6,18 @@
  * */
 public class Remolque {
     // Atributos
+
+    /**
+     * Peso del remolque
+     */
     private int peso;
 
     // Contructor
+
+    /**
+     * Contructor con 1 parametro
+     * @param peso
+     */
     public Remolque(int peso) {
         this.peso = peso;
     }

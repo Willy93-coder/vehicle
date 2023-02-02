@@ -5,6 +5,10 @@
  * @version 1.0.0
  * */
 public class DemasiadoRapidoException extends Exception{
+    /**
+     * Metodo que recibe 1 parametro y hereda de Exception
+     * @param message
+     */
     public DemasiadoRapidoException(String message) {
         super(message);
     }

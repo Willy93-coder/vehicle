@@ -3,30 +3,48 @@
  * Contiene toda la información referente a los camiones
  * @author Willy
  * @version 1.0.0
- * */
+ */
 public class Camion extends Vehiculo{
     // Atributos
+
+    /**
+     * Remolque del camion
+     */
     Remolque remolque;
 
     // Constructor
+
+    /**
+     * Constructor con 1 parametro y que inicializa el remolque a null
+     * @param matricula
+     */
     public Camion(String matricula) {
         super(matricula);
         this.remolque = null;
     }
 
-    // Método ponRemolque
+    // Métodos
+
+    /**
+     * Poner remolque al camion que recibe 1 parametro
+     * @param remolque
+     */
     public void ponRemolque(Remolque remolque) {
         this.remolque = remolque;
     }
 
-    // Método quitaRemolque
+    /**
+     * Quitar remolque del camion
+     */
     public void quitaRemolque(){
         this.remolque = null;
         System.out.println("Tu camión ya no tiene remolque");
     }
 
-    // Método acelerar
-
+    /**
+     * Sobreescritura del metodo acelerar que recibe 1 parametro, que controla la velocidad si tiene remolque
+     * @param velocidad
+     */
     @Override
     public double accelerar(double velocidad) throws DemasiadoRapidoException {
         if (velocidad > 100 && remolque != null ) {
