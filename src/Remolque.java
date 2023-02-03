@@ -10,7 +10,7 @@ public class Remolque {
     /**
      * Peso del remolque
      */
-    private int peso;
+    protected int peso;
 
     // Contructor
 

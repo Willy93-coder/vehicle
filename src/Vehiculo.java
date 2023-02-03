@@ -9,11 +9,11 @@ public abstract class Vehiculo{
     /**
      * Matricula del vehiculo
      */
-    private String matricula;
+    protected String matricula;
     /**
      * Velocidad del vehiculo
      */
-    private double velocidad;
+    protected double velocidad;
 
     // Constructor
     /**

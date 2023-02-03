@@ -10,7 +10,7 @@ public class Camion extends Vehiculo{
     /**
      * Remolque del camion
      */
-    Remolque remolque;
+    protected Remolque remolque;
 
     // Constructor
 

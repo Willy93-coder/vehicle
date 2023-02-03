@@ -10,7 +10,7 @@ public class Coche extends Vehiculo{
     /**
      * Numero de puertas
      */
-    private int puertas;
+    protected int puertas;
 
     // Constructor
 

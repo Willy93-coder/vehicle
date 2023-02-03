@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abcf9aa9-4578-44cd-a62c-512b5aba77a9" name="Changes" comment="Añadido java doc">
+    <list default="true" id="abcf9aa9-4578-44cd-a62c-512b5aba77a9" name="Changes" comment="Añadido: java doc en todas las clases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Camion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DemasiadoRapidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemasiadoRapidoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Remolque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Remolque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehiculo.java" afterDir="false" />
     </list>
@@ -89,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675099015495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Añadido: java doc en todas las clases">
+      <created>1675340955647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675340955647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,7 +112,8 @@
     <MESSAGE value="Finalización de todas las clases" />
     <MESSAGE value="Cambio de sout a soerr" />
     <MESSAGE value="Añadido java doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido java doc" />
+    <MESSAGE value="Añadido: java doc en todas las clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido: java doc en todas las clases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
